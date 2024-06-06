@@ -1,0 +1,20 @@
+body {
+  header {
+    .header-container {
+      max-width: 144rem;
+      height: 10rem;
+      margin: 0 auto;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      .header-content {
+        max-width: 111rem;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+}
