@@ -202,6 +202,53 @@ body header .underLine {
   height: 0.1rem;
 }
 
+body .products {
+  display: flex;
+  width: 111rem;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+body .products .product-list {
+  width: 40.5rem;
+  height: 34.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 12.8rem;
+}
+body .products .product-list .product-release h4 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  letter-spacing: 1rem;
+  color: #f1f1f1;
+}
+body .products .product-list .product-name h2 {
+  font-weight: 700;
+  font-size: 5.6rem;
+  line-height: 5.8rem;
+  letter-spacing: 0.2rem;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+body .products .product-list .about p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #ffffff;
+}
+body .products .product-list .product-view .btn {
+  width: 16rem;
+  height: 4.8rem;
+  background-color: rgb(216, 125, 74);
+  color: white;
+  border: none;
+}
+body .products .product-list .product-view .btn:hover {
+  background-color: rgb(110, 111, 111);
+  transition: 1s;
+}
+
 body {
   background-color: black;
 }/*# sourceMappingURL=global.css.map */
