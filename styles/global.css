@@ -209,7 +209,7 @@ body .products-div {
 }
 body .products-div .products {
   display: flex;
-  width: 111rem;
+  max-width: 111rem;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -254,12 +254,12 @@ body .products-div .products .product-list .product-view .btn:hover {
   transition: 1s;
 }
 body .lists-div {
-  width: 144rem;
+  max-width: 144rem;
   background-color: #ffffff;
   margin: 0 auto;
 }
 body .lists-div .lists-product {
-  width: 111rem;
+  max-width: 111rem;
   height: 28.4rem;
   margin: 12rem auto;
   background-color: #ffffff;
@@ -313,7 +313,7 @@ body .lists-div .lists-product .card .shop a:hover {
   transition: 2s;
 }
 body .about-us {
-  width: 111rem;
+  max-width: 111rem;
   height: 58.8rem;
   margin: 11.2rem auto;
   display: flex;
