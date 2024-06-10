@@ -343,4 +343,71 @@ body .about-us .text p {
   font-size: 1.5rem;
   line-height: 2.5rem;
   color: rgb(0, 0, 0);
+}
+
+body .footer-container {
+  max-width: 100%;
+  background-color: black;
+  height: 36.5rem;
+  display: flex;
+  flex-direction: column;
+}
+body .footer-container .navbar {
+  max-width: 111rem;
+  width: 100%;
+  margin: 7.5rem auto;
+  margin-bottom: 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+body .footer-container .navbar .navigation nav ul {
+  display: flex;
+  gap: 5rem;
+}
+body .footer-container .navbar .navigation nav li {
+  list-style-type: none;
+}
+body .footer-container .navbar .navigation nav a {
+  font-weight: 700;
+  font-size: 1.3;
+  line-height: 2.5rem;
+  letter-spacing: 0.2rem;
+  color: white;
+}
+body .footer-container .navbar .navigation nav a:hover {
+  color: red;
+  transition: 2s;
+}
+body .footer-container .info {
+  max-width: 111rem;
+  width: 100%;
+  margin: 3.6rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+body .footer-container .info p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 54rem;
+  height: 10rem;
+}
+body .footer-container .info .icons {
+  display: flex;
+  gap: 1.6rem;
+}
+body .footer-container .copyright {
+  max-width: 111rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+body .footer-container .copyright span {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: rgba(255, 255, 255, 0.7);
 }/*# sourceMappingURL=global.css.map */
