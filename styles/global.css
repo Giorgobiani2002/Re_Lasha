@@ -277,11 +277,6 @@ body .products-div .products {
     justify-content: center;
   }
 }
-@media (max-width: 572.3px) {
-  body .products-div .products {
-    width: 37.5rem;
-  }
-}
 body .products-div .products .product-list {
   max-width: 40.5rem;
   width: 100%;
@@ -354,11 +349,6 @@ body .products-div .products .product-img {
 }
 body .products-div .products .product-img .headpones {
   width: 100%;
-}
-@media (max-width: 863px) {
-  body .products-div .products .product-img .headpones {
-    width: 69rem;
-  }
 }
 body .lists-div {
   max-width: 144rem;

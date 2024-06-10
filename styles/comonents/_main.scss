@@ -14,9 +14,6 @@ body {
       @media (max-width: 863px) {
         justify-content: center;
       }
-      @media (max-width: 572.3px) {
-        width: 37.5rem;
-      }
 
       .product-list {
         max-width: 40.5rem;
@@ -91,9 +88,6 @@ body {
 
         .headpones {
           width: 100%;
-          @media (max-width: 863px) {
-            width: 69rem;
-          }
         }
       }
     }
