@@ -153,3 +153,13 @@ html{
   font-size: 10px;
   scroll-behavior: smooth;
 }
+html {
+  @media (max-width:863px){
+    font-size: 9px;
+  }
+}
+html {
+  @media (max-width:717px) and (min-width:572.2px){
+    font-size: 8px;
+  }
+}
