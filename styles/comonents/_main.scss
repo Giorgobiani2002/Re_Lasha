@@ -1,5 +1,4 @@
 body {
-  
   .products-div {
     width: 100%;
     margin: 0 auto;
@@ -84,17 +83,16 @@ body {
       }
       .product-img {
         max-width: 100%;
+        overflow: hidden;
 
         @media (max-width: 863px) {
           position: absolute;
-          max-width: fit-content;
         }
 
         .headpones {
           width: 100%;
           @media (max-width: 863px) {
             width: 69rem;
-            max-width: fit-content;
           }
         }
       }
