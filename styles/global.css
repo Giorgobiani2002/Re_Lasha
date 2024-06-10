@@ -516,12 +516,12 @@ body .about-us .text p {
   body .about-us .img {
     width: 68.9rem;
     height: 30rem;
-    background-image: url(../assets/png/Bitmap2.png);
+    background-image: url(./assets/png/Bitmap2.png);
   }
 }
 @media (max-width: 572.3px) {
   body .about-us .img {
-    background-image: url(../assets/png/Bitmap3.png);
+    background-image: url(./assets/png/Bitmap3.png);
     width: 32.7rem;
     height: 30rem;
     border-radius: 1.2rem;
