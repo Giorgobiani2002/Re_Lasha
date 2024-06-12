@@ -262,9 +262,21 @@ body {
       .buttons {
         display: flex;
         gap: 1rem;
+        .swiper-button-prev {
+          position: unset;
+          color: black;
+          width: 2.4rem;
+          height: 2.1rem;
+        }
         .btn2 {
           background: none;
           border: none;
+        }
+        .swiper-button-next {
+          position: unset;
+          color: #101010;
+          width: 2.4rem;
+          height: 2.1rem;
         }
         .btn3 {
           background: none;
@@ -284,10 +296,12 @@ body {
       grid-gap: 1rem 2rem;
       height: 24rem;
       margin-top: 5rem;
+
       .card {
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 2rem;
         display: flex;
+
         .card-div {
           width: 29.4rem;
           height: 18.3rem;
@@ -301,7 +315,7 @@ body {
             line-height: 2.2rem;
             color: rgba(0, 0, 0, 1);
           }
-          p{
+          p {
             font-weight: 400;
             font-size: 1.6rem;
             line-height: 2.2rem;

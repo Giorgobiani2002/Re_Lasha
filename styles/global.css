@@ -546,9 +546,21 @@ body .customer-rate .head .buttons {
   display: flex;
   gap: 1rem;
 }
+body .customer-rate .head .buttons .swiper-button-prev {
+  position: unset;
+  color: black;
+  width: 2.4rem;
+  height: 2.1rem;
+}
 body .customer-rate .head .buttons .btn2 {
   background: none;
   border: none;
+}
+body .customer-rate .head .buttons .swiper-button-next {
+  position: unset;
+  color: #101010;
+  width: 2.4rem;
+  height: 2.1rem;
 }
 body .customer-rate .head .buttons .btn3 {
   background: none;
