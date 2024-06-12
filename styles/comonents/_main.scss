@@ -14,9 +14,7 @@ body {
       @media (max-width: 863px) {
         justify-content: center;
       }
-      @media (max-width:500px) {
-
-        
+      @media (max-width: 500px) {
       }
 
       .product-list {
@@ -249,6 +247,66 @@ body {
       img {
         @media (max-width: 863px) {
           display: none;
+        }
+      }
+    }
+  }
+  .customer-rate {
+    max-width: 111rem;
+    height: 35.1rem;
+    margin: 12rem auto;
+    .head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      .buttons {
+        display: flex;
+        gap: 1rem;
+        .btn2 {
+          background: none;
+          border: none;
+        }
+        .btn3 {
+          background: none;
+          border: none;
+        }
+      }
+      h2 {
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 5.7rem;
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+    .clients {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 1rem 2rem;
+      height: 24rem;
+      margin-top: 5rem;
+      .card {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 2rem;
+        display: flex;
+        .card-div {
+          width: 29.4rem;
+          height: 18.3rem;
+          margin: auto auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .client-name {
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 2.2rem;
+            color: rgba(0, 0, 0, 1);
+          }
+          p{
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 2.2rem;
+            color: rgba(0, 0, 0, 0.6);
+          }
         }
       }
     }
