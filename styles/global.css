@@ -624,11 +624,6 @@ body .timer-section {
   margin: 0 auto;
   margin-bottom: 15rem;
 }
-@media (max-width: 863px) {
-  body .timer-section {
-    display: none;
-  }
-}
 body .timer-section .timer h2 {
   font-weight: 900;
   font-size: 4.8rem;
@@ -638,6 +633,11 @@ body .timer-section .timer h2 {
 body .timer-section .timer .rectangle {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 863px) {
+  body .timer-section .timer .rectangle {
+    display: none;
+  }
 }
 body .timer-section .timer .rectangle div {
   width: 25.2rem;

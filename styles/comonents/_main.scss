@@ -329,9 +329,7 @@ body {
     height: 31.2rem;
     margin: 0 auto;
     margin-bottom: 15rem;
-    @media (max-width: 863px){
-      display: none;
-    }
+    
     .timer {
       h2{
         font-weight: 900;
@@ -342,6 +340,9 @@ body {
       .rectangle {
         display: flex;
         justify-content: space-between;
+        @media (max-width: 863px){
+          display: none;
+        }
         div {
           width: 25.2rem;
           height: 19.9rem;
