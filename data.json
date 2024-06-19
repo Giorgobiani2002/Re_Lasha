@@ -1,0 +1,38 @@
+[
+  {
+    "name": "XX99 Mark II Headphones",
+    "type": "Headphones",
+    "description": "The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
+    "img": "mark2.png"
+  },
+  {
+    "name": "XX99 Mark I Headphones",
+    "type": "Headphones",
+    "description": "As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.",
+    "img": "mark1.png"
+  },
+  {
+    "name": "XX59 Headphones",
+    "type": "Headphones",
+    "description": "Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",
+    "img": "xx59.png"
+  },
+  {
+    "name": "ZX7 SPEAKER",
+    "type": "SPEAKER",
+    "description": "Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.",
+    "img": "zx7.png"
+  },
+  {
+    "name": "ZX9 SPEAKER",
+    "type": "SPEAKER",
+    "description": "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    "img": "zx9.png"
+  },
+  {
+    "name": "YX1 WIRELESS EARPHONES",
+    "type": "EARPHONES",
+    "description": "Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
+    "img": "yx1.png"
+  }
+]
