@@ -1,4 +1,38 @@
 body {
+  header {
+    .header-container {
+      .cart {
+        .popup {
+          display: none;
+          .ItemsList{
+            width: 31.3rem;
+            height: 6.4rem;
+            display: flex;
+            margin-top: 3rem;
+            align-items: center;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            font-weight: 700;
+            .listsImg{
+              width: 3.6rem;
+              height: 4rem;
+            }
+
+          }
+        }
+        .popupNone {
+          display: block;
+          width: 37.7rem;
+          height: 48.8rem;
+          border: 1px solid black;
+          position: absolute;
+          top: 15rem;
+          left: 65%;
+          background-color: rgb(255, 255, 255);
+        }
+      }
+    }
+  }
   main {
     .back {
       max-width: 111rem;
@@ -25,11 +59,11 @@ body {
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
-        
+
         @media (max-width: 1097.6px) {
           max-width: 68.7rem;
         }
-        @media (max-width: 573.6px){
+        @media (max-width: 573.6px) {
           width: 32.7rem;
           flex-direction: column;
         }

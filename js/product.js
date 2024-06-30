@@ -76,4 +76,7 @@ nextButton.addEventListener("click", function () {
     currentPage = currentPage + 1;
     displayProducts();
   }
+  
+
 });
+

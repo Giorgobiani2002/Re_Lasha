@@ -60,3 +60,9 @@ function timerCount() {
 
 }
 setInterval (timerCount,1000);
+const menuBtn = document.querySelector(".burger-menu");
+
+menuBtn.addEventListener("click", function(){
+    menuBtn.classList.toggle('open');
+
+})
